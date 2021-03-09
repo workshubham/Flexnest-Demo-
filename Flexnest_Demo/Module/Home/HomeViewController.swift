@@ -136,6 +136,9 @@ class HomeViewController: UIViewController {
     
     /// Checking is there any local data
     private func checkLocalData() {
+        if refreshControl.isRefreshing {
+            refreshControl.endRefreshing()
+        }
         guard let localData = HomeModel(data: UserDefaultsManager.getUserData()) else { return }
         userData = []
         for user in localData.usersData {

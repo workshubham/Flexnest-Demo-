@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241986F4EC0EC78DB2438E43 /* Pods_Flexnest_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD4C7FB6A55C266D1B9BB0F /* Pods_Flexnest_DemoTests.framework */; };
+		7A52851425F7E49D00016074 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52851325F7E49D00016074 /* UserDefaultsManager.swift */; };
+		7A52852425F8008600016074 /* HomeShimmerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52852325F8008600016074 /* HomeShimmerTableView.swift */; };
+		7A52852E25F800EC00016074 /* PostShimmerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52852C25F800EC00016074 /* PostShimmerTableViewCell.swift */; };
+		7A52852F25F800EC00016074 /* PostShimmerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A52852D25F800EC00016074 /* PostShimmerTableViewCell.xib */; };
+		7A53BD9225F8107400BB19A6 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53BD9125F8107400BB19A6 /* DesignableView.swift */; };
+		7A54C75A25F75BE200316129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54C75925F75BE200316129 /* AppDelegate.swift */; };
+		7A54C75C25F75BE200316129 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54C75B25F75BE200316129 /* SceneDelegate.swift */; };
+		7A54C76125F75BE200316129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A54C75F25F75BE200316129 /* Main.storyboard */; };
+		7A54C76325F75BE500316129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A54C76225F75BE500316129 /* Assets.xcassets */; };
+		7A54C76625F75BE500316129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A54C76425F75BE500316129 /* LaunchScreen.storyboard */; };
+		7A54C77125F75BE600316129 /* Flexnest_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54C77025F75BE600316129 /* Flexnest_DemoTests.swift */; };
+		7A54C77C25F75BE600316129 /* Flexnest_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54C77B25F75BE600316129 /* Flexnest_DemoUITests.swift */; };
+		7A67A6D425F769F400A26BCA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67A6D325F769F400A26BCA /* HomeViewController.swift */; };
+		7A67A6D925F76A7800A26BCA /* RequestGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67A6D825F76A7800A26BCA /* RequestGenerator.swift */; };
+		7A8EEAB125F7729A00873DD3 /* EnvironmentConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEAB025F7729A00873DD3 /* EnvironmentConfig.swift */; };
+		7A8EEAB625F7740C00873DD3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEAB525F7740C00873DD3 /* Utility.swift */; };
+		7A8EEAC825F774F600873DD3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEAC625F774F600873DD3 /* Reachability.m */; };
+		7A8EEADA25F7768000873DD3 /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEAD925F7768000873DD3 /* NoInternetView.swift */; };
+		7A8EEAE525F77F2F00873DD3 /* HomeWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEAE425F77F2F00873DD3 /* HomeWebService.swift */; };
+		7A8EEAEC25F7840A00873DD3 /* HomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEAEB25F7840A00873DD3 /* HomeTableView.swift */; };
+		7A8EEAF525F7850A00873DD3 /* TableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEAF425F7850A00873DD3 /* TableExtension.swift */; };
+		7A8EEB0E25F78F9100873DD3 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEB0D25F78F9100873DD3 /* HomeModel.swift */; };
+		7A8EEB1525F79A9200873DD3 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEB1325F79A9200873DD3 /* UserTableViewCell.swift */; };
+		7A8EEB1625F79A9200873DD3 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A8EEB1425F79A9200873DD3 /* UserTableViewCell.xib */; };
+		7A8EEB1E25F79AFA00873DD3 /* UserCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEB1D25F79AFA00873DD3 /* UserCollectionView.swift */; };
+		7A8EEB2525F79BC800873DD3 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEB2325F79BC800873DD3 /* UserCollectionViewCell.swift */; };
+		7A8EEB2625F79BC800873DD3 /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A8EEB2425F79BC800873DD3 /* UserCollectionViewCell.xib */; };
+		7A8EEB2E25F79BF000873DD3 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEB2D25F79BF000873DD3 /* CollectionExtensions.swift */; };
+		7A8EEB3525F79C6700873DD3 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEB3325F79C6700873DD3 /* PostTableViewCell.swift */; };
+		7A8EEB3625F79C6700873DD3 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A8EEB3425F79C6700873DD3 /* PostTableViewCell.xib */; };
+		7A8EEB3B25F79FB800873DD3 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEB3A25F79FB800873DD3 /* UserViewModel.swift */; };
+		7A8EEB4925F7A5F300873DD3 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EEB4825F7A5F300873DD3 /* DesignableImageView.swift */; };
+		7AFF31D325F764F700365B8D /* AlamofireRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF31D225F764F700365B8D /* AlamofireRequestManager.swift */; };
+		BD0F433D933C21B3F19ECF76 /* Pods_Flexnest_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1537BC1ED0199A9BE018977D /* Pods_Flexnest_Demo.framework */; };
+		F4A9711973B01F1FEB7BA304 /* Pods_Flexnest_Demo_Flexnest_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242EBCA9F93E4794904E8E75 /* Pods_Flexnest_Demo_Flexnest_DemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A54C76D25F75BE600316129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A54C74E25F75BE200316129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A54C75525F75BE200316129;
+			remoteInfo = Flexnest_Demo;
+		};
+		7A54C77825F75BE600316129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A54C74E25F75BE200316129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A54C75525F75BE200316129;
+			remoteInfo = Flexnest_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1537BC1ED0199A9BE018977D /* Pods_Flexnest_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flexnest_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		180A91B5DB91A930724D7D3F /* Pods-Flexnest_DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flexnest_DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-Flexnest_DemoTests/Pods-Flexnest_DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		221AADC8298E6F16F722708A /* Pods-Flexnest_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flexnest_Demo.debug.xcconfig"; path = "Target Support Files/Pods-Flexnest_Demo/Pods-Flexnest_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		242EBCA9F93E4794904E8E75 /* Pods_Flexnest_Demo_Flexnest_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flexnest_Demo_Flexnest_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E38E3802422882B0F44119C /* Pods-Flexnest_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flexnest_DemoTests.release.xcconfig"; path = "Target Support Files/Pods-Flexnest_DemoTests/Pods-Flexnest_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A52851325F7E49D00016074 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		7A52852325F8008600016074 /* HomeShimmerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeShimmerTableView.swift; sourceTree = "<group>"; };
+		7A52852C25F800EC00016074 /* PostShimmerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostShimmerTableViewCell.swift; sourceTree = "<group>"; };
+		7A52852D25F800EC00016074 /* PostShimmerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostShimmerTableViewCell.xib; sourceTree = "<group>"; };
+		7A53BD9125F8107400BB19A6 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		7A54C75625F75BE200316129 /* Flexnest_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flexnest_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A54C75925F75BE200316129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A54C75B25F75BE200316129 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A54C76025F75BE200316129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A54C76225F75BE500316129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A54C76525F75BE500316129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A54C76725F75BE500316129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A54C76C25F75BE600316129 /* Flexnest_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flexnest_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A54C77025F75BE600316129 /* Flexnest_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flexnest_DemoTests.swift; sourceTree = "<group>"; };
+		7A54C77225F75BE600316129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A54C77725F75BE600316129 /* Flexnest_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flexnest_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A54C77B25F75BE600316129 /* Flexnest_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flexnest_DemoUITests.swift; sourceTree = "<group>"; };
+		7A54C77D25F75BE600316129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A67A6D325F769F400A26BCA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7A67A6D825F76A7800A26BCA /* RequestGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestGenerator.swift; sourceTree = "<group>"; };
+		7A8EEAB025F7729A00873DD3 /* EnvironmentConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentConfig.swift; sourceTree = "<group>"; };
+		7A8EEAB525F7740C00873DD3 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		7A8EEAC525F774F500873DD3 /* Flexnest_Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flexnest_Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A8EEAC625F774F600873DD3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7A8EEAC725F774F600873DD3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7A8EEAD925F7768000873DD3 /* NoInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
+		7A8EEAE425F77F2F00873DD3 /* HomeWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWebService.swift; sourceTree = "<group>"; };
+		7A8EEAEB25F7840A00873DD3 /* HomeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableView.swift; sourceTree = "<group>"; };
+		7A8EEAF425F7850A00873DD3 /* TableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExtension.swift; sourceTree = "<group>"; };
+		7A8EEB0D25F78F9100873DD3 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		7A8EEB1325F79A9200873DD3 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		7A8EEB1425F79A9200873DD3 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		7A8EEB1D25F79AFA00873DD3 /* UserCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionView.swift; sourceTree = "<group>"; };
+		7A8EEB2325F79BC800873DD3 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		7A8EEB2425F79BC800873DD3 /* UserCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCollectionViewCell.xib; sourceTree = "<group>"; };
+		7A8EEB2D25F79BF000873DD3 /* CollectionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
+		7A8EEB3325F79C6700873DD3 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		7A8EEB3425F79C6700873DD3 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		7A8EEB3A25F79FB800873DD3 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		7A8EEB4825F7A5F300873DD3 /* DesignableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		7AFF31D225F764F700365B8D /* AlamofireRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequestManager.swift; sourceTree = "<group>"; };
+		8CB539DC01B34C6AB1B70D3E /* Pods-Flexnest_Demo-Flexnest_DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flexnest_Demo-Flexnest_DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Flexnest_Demo-Flexnest_DemoUITests/Pods-Flexnest_Demo-Flexnest_DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93F01CD5FD5A84C4FD725756 /* Pods-Flexnest_Demo-Flexnest_DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flexnest_Demo-Flexnest_DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-Flexnest_Demo-Flexnest_DemoUITests/Pods-Flexnest_Demo-Flexnest_DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DD4C7FB6A55C266D1B9BB0F /* Pods_Flexnest_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flexnest_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF442C9C693A2CA9A95C41FE /* Pods-Flexnest_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flexnest_Demo.release.xcconfig"; path = "Target Support Files/Pods-Flexnest_Demo/Pods-Flexnest_Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A54C75325F75BE200316129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0F433D933C21B3F19ECF76 /* Pods_Flexnest_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C76925F75BE600316129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241986F4EC0EC78DB2438E43 /* Pods_Flexnest_DemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C77425F75BE600316129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A9711973B01F1FEB7BA304 /* Pods_Flexnest_Demo_Flexnest_DemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E429792845144C37B98BCE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1537BC1ED0199A9BE018977D /* Pods_Flexnest_Demo.framework */,
+				242EBCA9F93E4794904E8E75 /* Pods_Flexnest_Demo_Flexnest_DemoUITests.framework */,
+				9DD4C7FB6A55C266D1B9BB0F /* Pods_Flexnest_DemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A52852225F8005D00016074 /* Home Shimmer Table View */ = {
+			isa = PBXGroup;
+			children = (
+				7A52852325F8008600016074 /* HomeShimmerTableView.swift */,
+			);
+			path = "Home Shimmer Table View";
+			sourceTree = "<group>";
+		};
+		7A52852B25F800CC00016074 /* Post Shimmer Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7A52852C25F800EC00016074 /* PostShimmerTableViewCell.swift */,
+				7A52852D25F800EC00016074 /* PostShimmerTableViewCell.xib */,
+			);
+			path = "Post Shimmer Table View Cell";
+			sourceTree = "<group>";
+		};
+		7A54C74D25F75BE200316129 = {
+			isa = PBXGroup;
+			children = (
+				7A54C75825F75BE200316129 /* Flexnest_Demo */,
+				7A54C76F25F75BE600316129 /* Flexnest_DemoTests */,
+				7A54C77A25F75BE600316129 /* Flexnest_DemoUITests */,
+				7A54C75725F75BE200316129 /* Products */,
+				8FE65216C577353223C82BEF /* Pods */,
+				5E429792845144C37B98BCE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A54C75725F75BE200316129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A54C75625F75BE200316129 /* Flexnest_Demo.app */,
+				7A54C76C25F75BE600316129 /* Flexnest_DemoTests.xctest */,
+				7A54C77725F75BE600316129 /* Flexnest_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A54C75825F75BE200316129 /* Flexnest_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEAC525F774F500873DD3 /* Flexnest_Demo-Bridging-Header.h */,
+				7A54C75925F75BE200316129 /* AppDelegate.swift */,
+				7A54C75B25F75BE200316129 /* SceneDelegate.swift */,
+				7A54C78C25F75C2500316129 /* Module */,
+				7A54C78D25F75C2C00316129 /* View */,
+				7AFF31CE25F7623900365B8D /* Storyboard */,
+				7A54C78E25F75C3700316129 /* Network Request */,
+				7A8EEAC325F774B100873DD3 /* Common */,
+				7A54C76225F75BE500316129 /* Assets.xcassets */,
+				7A54C76425F75BE500316129 /* LaunchScreen.storyboard */,
+				7A54C76725F75BE500316129 /* Info.plist */,
+			);
+			path = Flexnest_Demo;
+			sourceTree = "<group>";
+		};
+		7A54C76F25F75BE600316129 /* Flexnest_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A54C77025F75BE600316129 /* Flexnest_DemoTests.swift */,
+				7A54C77225F75BE600316129 /* Info.plist */,
+			);
+			path = Flexnest_DemoTests;
+			sourceTree = "<group>";
+		};
+		7A54C77A25F75BE600316129 /* Flexnest_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A54C77B25F75BE600316129 /* Flexnest_DemoUITests.swift */,
+				7A54C77D25F75BE600316129 /* Info.plist */,
+			);
+			path = Flexnest_DemoUITests;
+			sourceTree = "<group>";
+		};
+		7A54C78C25F75C2500316129 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				7A67A6D225F7698E00A26BCA /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		7A54C78D25F75C2C00316129 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A52852225F8005D00016074 /* Home Shimmer Table View */,
+				7A8EEB0125F7862900873DD3 /* User Collection View */,
+				7A8EEB0025F7860F00873DD3 /* CollectionView Cells */,
+				7A8EEAFF25F7860500873DD3 /* TableView Cells */,
+				7A8EEAEA25F783CE00873DD3 /* Home Table View */,
+				7A8EEAE925F783AE00873DD3 /* No Internet */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A54C78E25F75C3700316129 /* Network Request */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF31D225F764F700365B8D /* AlamofireRequestManager.swift */,
+				7A67A6D825F76A7800A26BCA /* RequestGenerator.swift */,
+			);
+			path = "Network Request";
+			sourceTree = "<group>";
+		};
+		7A67A6D225F7698E00A26BCA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A67A6D325F769F400A26BCA /* HomeViewController.swift */,
+				7A8EEAE425F77F2F00873DD3 /* HomeWebService.swift */,
+				7A8EEB0D25F78F9100873DD3 /* HomeModel.swift */,
+				7A8EEB3A25F79FB800873DD3 /* UserViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A8EEAAF25F7728100873DD3 /* App Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEAB525F7740C00873DD3 /* Utility.swift */,
+				7A8EEAB025F7729A00873DD3 /* EnvironmentConfig.swift */,
+				7A52851325F7E49D00016074 /* UserDefaultsManager.swift */,
+			);
+			path = "App Utility";
+			sourceTree = "<group>";
+		};
+		7A8EEAC325F774B100873DD3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEB4725F7A5DC00873DD3 /* IBDesignables */,
+				7A8EEAF325F784F500873DD3 /* Extensions */,
+				7A8EEAC425F774BF00873DD3 /* Reachability */,
+				7A8EEAAF25F7728100873DD3 /* App Utility */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7A8EEAC425F774BF00873DD3 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEAC725F774F600873DD3 /* Reachability.h */,
+				7A8EEAC625F774F600873DD3 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		7A8EEAE925F783AE00873DD3 /* No Internet */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEAD925F7768000873DD3 /* NoInternetView.swift */,
+			);
+			path = "No Internet";
+			sourceTree = "<group>";
+		};
+		7A8EEAEA25F783CE00873DD3 /* Home Table View */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEAEB25F7840A00873DD3 /* HomeTableView.swift */,
+			);
+			path = "Home Table View";
+			sourceTree = "<group>";
+		};
+		7A8EEAF325F784F500873DD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEAF425F7850A00873DD3 /* TableExtension.swift */,
+				7A8EEB2D25F79BF000873DD3 /* CollectionExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7A8EEAFF25F7860500873DD3 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7A52852B25F800CC00016074 /* Post Shimmer Table View Cell */,
+				7A8EEB3225F79C4700873DD3 /* Post Table View Cell */,
+				7A8EEB1225F79A5E00873DD3 /* User Table View Cell */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		7A8EEB0025F7860F00873DD3 /* CollectionView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEB2225F79BA500873DD3 /* User Collection View Cell */,
+			);
+			path = "CollectionView Cells";
+			sourceTree = "<group>";
+		};
+		7A8EEB0125F7862900873DD3 /* User Collection View */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEB1D25F79AFA00873DD3 /* UserCollectionView.swift */,
+			);
+			path = "User Collection View";
+			sourceTree = "<group>";
+		};
+		7A8EEB1225F79A5E00873DD3 /* User Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEB1325F79A9200873DD3 /* UserTableViewCell.swift */,
+				7A8EEB1425F79A9200873DD3 /* UserTableViewCell.xib */,
+			);
+			path = "User Table View Cell";
+			sourceTree = "<group>";
+		};
+		7A8EEB2225F79BA500873DD3 /* User Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEB2325F79BC800873DD3 /* UserCollectionViewCell.swift */,
+				7A8EEB2425F79BC800873DD3 /* UserCollectionViewCell.xib */,
+			);
+			path = "User Collection View Cell";
+			sourceTree = "<group>";
+		};
+		7A8EEB3225F79C4700873DD3 /* Post Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEB3325F79C6700873DD3 /* PostTableViewCell.swift */,
+				7A8EEB3425F79C6700873DD3 /* PostTableViewCell.xib */,
+			);
+			path = "Post Table View Cell";
+			sourceTree = "<group>";
+		};
+		7A8EEB4725F7A5DC00873DD3 /* IBDesignables */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EEB4825F7A5F300873DD3 /* DesignableImageView.swift */,
+				7A53BD9125F8107400BB19A6 /* DesignableView.swift */,
+			);
+			path = IBDesignables;
+			sourceTree = "<group>";
+		};
+		7AFF31CE25F7623900365B8D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7A54C75F25F75BE200316129 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8FE65216C577353223C82BEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221AADC8298E6F16F722708A /* Pods-Flexnest_Demo.debug.xcconfig */,
+				CF442C9C693A2CA9A95C41FE /* Pods-Flexnest_Demo.release.xcconfig */,
+				8CB539DC01B34C6AB1B70D3E /* Pods-Flexnest_Demo-Flexnest_DemoUITests.debug.xcconfig */,
+				93F01CD5FD5A84C4FD725756 /* Pods-Flexnest_Demo-Flexnest_DemoUITests.release.xcconfig */,
+				180A91B5DB91A930724D7D3F /* Pods-Flexnest_DemoTests.debug.xcconfig */,
+				6E38E3802422882B0F44119C /* Pods-Flexnest_DemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A54C75525F75BE200316129 /* Flexnest_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A54C78025F75BE600316129 /* Build configuration list for PBXNativeTarget "Flexnest_Demo" */;
+			buildPhases = (
+				8A90B39097347362E64551F5 /* [CP] Check Pods Manifest.lock */,
+				7A54C75225F75BE200316129 /* Sources */,
+				7A54C75325F75BE200316129 /* Frameworks */,
+				7A54C75425F75BE200316129 /* Resources */,
+				ACA66CEA800E63FAF764E845 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flexnest_Demo;
+			productName = Flexnest_Demo;
+			productReference = 7A54C75625F75BE200316129 /* Flexnest_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A54C76B25F75BE600316129 /* Flexnest_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A54C78325F75BE600316129 /* Build configuration list for PBXNativeTarget "Flexnest_DemoTests" */;
+			buildPhases = (
+				87C42A8EE21966AE6DCB7B3D /* [CP] Check Pods Manifest.lock */,
+				7A54C76825F75BE600316129 /* Sources */,
+				7A54C76925F75BE600316129 /* Frameworks */,
+				7A54C76A25F75BE600316129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A54C76E25F75BE600316129 /* PBXTargetDependency */,
+			);
+			name = Flexnest_DemoTests;
+			productName = Flexnest_DemoTests;
+			productReference = 7A54C76C25F75BE600316129 /* Flexnest_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A54C77625F75BE600316129 /* Flexnest_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A54C78625F75BE600316129 /* Build configuration list for PBXNativeTarget "Flexnest_DemoUITests" */;
+			buildPhases = (
+				1581B01E46DEEAA68BA17E13 /* [CP] Check Pods Manifest.lock */,
+				7A54C77325F75BE600316129 /* Sources */,
+				7A54C77425F75BE600316129 /* Frameworks */,
+				7A54C77525F75BE600316129 /* Resources */,
+				FBB13D5D1615208E90F85127 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A54C77925F75BE600316129 /* PBXTargetDependency */,
+			);
+			name = Flexnest_DemoUITests;
+			productName = Flexnest_DemoUITests;
+			productReference = 7A54C77725F75BE600316129 /* Flexnest_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A54C74E25F75BE200316129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7A54C75525F75BE200316129 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					7A54C76B25F75BE600316129 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7A54C75525F75BE200316129;
+					};
+					7A54C77625F75BE600316129 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7A54C75525F75BE200316129;
+					};
+				};
+			};
+			buildConfigurationList = 7A54C75125F75BE200316129 /* Build configuration list for PBXProject "Flexnest_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A54C74D25F75BE200316129;
+			productRefGroup = 7A54C75725F75BE200316129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A54C75525F75BE200316129 /* Flexnest_Demo */,
+				7A54C76B25F75BE600316129 /* Flexnest_DemoTests */,
+				7A54C77625F75BE600316129 /* Flexnest_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A54C75425F75BE200316129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8EEB1625F79A9200873DD3 /* UserTableViewCell.xib in Resources */,
+				7A8EEB2625F79BC800873DD3 /* UserCollectionViewCell.xib in Resources */,
+				7A54C76625F75BE500316129 /* LaunchScreen.storyboard in Resources */,
+				7A8EEB3625F79C6700873DD3 /* PostTableViewCell.xib in Resources */,
+				7A54C76325F75BE500316129 /* Assets.xcassets in Resources */,
+				7A54C76125F75BE200316129 /* Main.storyboard in Resources */,
+				7A52852F25F800EC00016074 /* PostShimmerTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C76A25F75BE600316129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C77525F75BE600316129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1581B01E46DEEAA68BA17E13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flexnest_Demo-Flexnest_DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C42A8EE21966AE6DCB7B3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flexnest_DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A90B39097347362E64551F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flexnest_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA66CEA800E63FAF764E845 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flexnest_Demo/Pods-Flexnest_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flexnest_Demo/Pods-Flexnest_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flexnest_Demo/Pods-Flexnest_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBB13D5D1615208E90F85127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flexnest_Demo-Flexnest_DemoUITests/Pods-Flexnest_Demo-Flexnest_DemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flexnest_Demo-Flexnest_DemoUITests/Pods-Flexnest_Demo-Flexnest_DemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flexnest_Demo-Flexnest_DemoUITests/Pods-Flexnest_Demo-Flexnest_DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A54C75225F75BE200316129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8EEAB625F7740C00873DD3 /* Utility.swift in Sources */,
+				7AFF31D325F764F700365B8D /* AlamofireRequestManager.swift in Sources */,
+				7A52852E25F800EC00016074 /* PostShimmerTableViewCell.swift in Sources */,
+				7A52852425F8008600016074 /* HomeShimmerTableView.swift in Sources */,
+				7A8EEB1525F79A9200873DD3 /* UserTableViewCell.swift in Sources */,
+				7A8EEAC825F774F600873DD3 /* Reachability.m in Sources */,
+				7A54C75A25F75BE200316129 /* AppDelegate.swift in Sources */,
+				7A8EEAF525F7850A00873DD3 /* TableExtension.swift in Sources */,
+				7A53BD9225F8107400BB19A6 /* DesignableView.swift in Sources */,
+				7A54C75C25F75BE200316129 /* SceneDelegate.swift in Sources */,
+				7A8EEAE525F77F2F00873DD3 /* HomeWebService.swift in Sources */,
+				7A8EEAEC25F7840A00873DD3 /* HomeTableView.swift in Sources */,
+				7A8EEB1E25F79AFA00873DD3 /* UserCollectionView.swift in Sources */,
+				7A8EEAB125F7729A00873DD3 /* EnvironmentConfig.swift in Sources */,
+				7A8EEB0E25F78F9100873DD3 /* HomeModel.swift in Sources */,
+				7A67A6D425F769F400A26BCA /* HomeViewController.swift in Sources */,
+				7A8EEB3B25F79FB800873DD3 /* UserViewModel.swift in Sources */,
+				7A8EEB2525F79BC800873DD3 /* UserCollectionViewCell.swift in Sources */,
+				7A8EEB2E25F79BF000873DD3 /* CollectionExtensions.swift in Sources */,
+				7A8EEB4925F7A5F300873DD3 /* DesignableImageView.swift in Sources */,
+				7A52851425F7E49D00016074 /* UserDefaultsManager.swift in Sources */,
+				7A67A6D925F76A7800A26BCA /* RequestGenerator.swift in Sources */,
+				7A8EEADA25F7768000873DD3 /* NoInternetView.swift in Sources */,
+				7A8EEB3525F79C6700873DD3 /* PostTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C76825F75BE600316129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A54C77125F75BE600316129 /* Flexnest_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A54C77325F75BE600316129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A54C77C25F75BE600316129 /* Flexnest_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A54C76E25F75BE600316129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A54C75525F75BE200316129 /* Flexnest_Demo */;
+			targetProxy = 7A54C76D25F75BE600316129 /* PBXContainerItemProxy */;
+		};
+		7A54C77925F75BE600316129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A54C75525F75BE200316129 /* Flexnest_Demo */;
+			targetProxy = 7A54C77825F75BE600316129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A54C75F25F75BE200316129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A54C76025F75BE200316129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A54C76425F75BE500316129 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A54C76525F75BE500316129 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A54C77E25F75BE600316129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A54C77F25F75BE600316129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A54C78125F75BE600316129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221AADC8298E6F16F722708A /* Pods-Flexnest_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KRLXP623S;
+				INFOPLIST_FILE = Flexnest_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Flexnest-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flexnest_Demo//Flexnest_Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7A54C78225F75BE600316129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF442C9C693A2CA9A95C41FE /* Pods-Flexnest_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KRLXP623S;
+				INFOPLIST_FILE = Flexnest_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Flexnest-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flexnest_Demo//Flexnest_Demo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7A54C78425F75BE600316129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180A91B5DB91A930724D7D3F /* Pods-Flexnest_DemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KRLXP623S;
+				INFOPLIST_FILE = Flexnest_DemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Flexnest-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flexnest_Demo.app/Flexnest_Demo";
+			};
+			name = Debug;
+		};
+		7A54C78525F75BE600316129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E38E3802422882B0F44119C /* Pods-Flexnest_DemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KRLXP623S;
+				INFOPLIST_FILE = Flexnest_DemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Flexnest-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flexnest_Demo.app/Flexnest_Demo";
+			};
+			name = Release;
+		};
+		7A54C78725F75BE600316129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB539DC01B34C6AB1B70D3E /* Pods-Flexnest_Demo-Flexnest_DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KRLXP623S;
+				INFOPLIST_FILE = Flexnest_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Flexnest-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flexnest_Demo;
+			};
+			name = Debug;
+		};
+		7A54C78825F75BE600316129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F01CD5FD5A84C4FD725756 /* Pods-Flexnest_Demo-Flexnest_DemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KRLXP623S;
+				INFOPLIST_FILE = Flexnest_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Flexnest-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flexnest_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A54C75125F75BE200316129 /* Build configuration list for PBXProject "Flexnest_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A54C77E25F75BE600316129 /* Debug */,
+				7A54C77F25F75BE600316129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A54C78025F75BE600316129 /* Build configuration list for PBXNativeTarget "Flexnest_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A54C78125F75BE600316129 /* Debug */,
+				7A54C78225F75BE600316129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A54C78325F75BE600316129 /* Build configuration list for PBXNativeTarget "Flexnest_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A54C78425F75BE600316129 /* Debug */,
+				7A54C78525F75BE600316129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A54C78625F75BE600316129 /* Build configuration list for PBXNativeTarget "Flexnest_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A54C78725F75BE600316129 /* Debug */,
+				7A54C78825F75BE600316129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A54C74E25F75BE200316129 /* Project object */;
+}

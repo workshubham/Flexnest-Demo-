@@ -9,6 +9,16 @@ import UIKit
 
 class UserTableViewCell: UITableViewCell {
 
+    // Outlets
+    @IBOutlet weak var collectionView: UserCollectionView!
+    
+    // Outlets
+    internal var usersData: [UserViewModel] = [UserViewModel]() {
+        didSet {
+            collectionView.usersData = usersData
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

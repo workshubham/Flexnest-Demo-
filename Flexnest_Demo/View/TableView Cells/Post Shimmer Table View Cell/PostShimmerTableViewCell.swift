@@ -8,7 +8,11 @@
 import UIKit
 
 class PostShimmerTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var nameView: DesignableView!
+    @IBOutlet weak var emailView: DesignableView!
+    @IBOutlet weak var imgView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

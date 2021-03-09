@@ -1,0 +1,6 @@
+framework module Pods_Flexnest_Demo_Flexnest_DemoUITests {
+  umbrella header "Pods-Flexnest_Demo-Flexnest_DemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

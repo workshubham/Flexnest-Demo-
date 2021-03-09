@@ -9,6 +9,20 @@ import UIKit
 
 class PostTableViewCell: UITableViewCell {
 
+    // Outlets
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var email: UILabel!
+    @IBOutlet weak var userPostImgView: UIImageView!
+    
+    // Variables and constants
+    internal var userPostData: UserViewModel! {
+        didSet {
+            name.text = userPostData.name
+            email.text = userPostData.email
+            userPostImgView.sd_setImage(with: URL(string: userPostData.avatar), placeholderImage: UIImage(named: "placeholderPost"))
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

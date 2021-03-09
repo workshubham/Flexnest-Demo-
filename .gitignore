@@ -1,0 +1,22 @@
+# Xcode
+#
+
+
+## Build generated
+build/
+DerivedData/
+**/.DS_Store
+
+
+## Various settings
+*.pbxuser
+*.xcuserstate
+xcuserdata
+
+
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM

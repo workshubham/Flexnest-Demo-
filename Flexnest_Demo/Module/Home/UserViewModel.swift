@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+struct UserViewModel {
+    
+    let name: String
+    let email: String
+    let avatar: String
+    
+    init(data: UserData) {
+        
+        self.name = "\(data.firstName) \(data.lastName)"
+        self.email = data.email
+        self.avatar = data.avatar
+    }
+}
